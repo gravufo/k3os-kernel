@@ -46,6 +46,7 @@ RUN apt-get --assume-yes update \
     locales \
     rsync \
     vim \
+    zstd \
  && rm -f /bin/sh && ln -s /bin/bash /bin/sh
 
 ########## Dapper Configuration #####################
